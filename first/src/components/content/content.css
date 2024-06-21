@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.main{
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 600;
+    background-color: #6950A1;
+    color: white;
+    padding:10px 20px;
+    border-radius: 10px;
+}
+
+button{
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #6950A1;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+.checkoutcard{
+    font-size: 24px;
+    font-weight: 700px;
+    font-family: 'Poppins', sans-serif;
+    padding: 40px;
+}

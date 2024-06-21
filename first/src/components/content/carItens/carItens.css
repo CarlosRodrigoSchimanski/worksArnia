@@ -1,0 +1,29 @@
+.itensCardCar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cardCar{
+    display: flex;
+}
+
+.price,.name{
+    color: black;
+    background-color: white;
+}
+
+.carImg{
+    display: flex;
+    background-color: white;
+    gap: 20px;
+}
+
+.imgCar{
+    background-color: #6950a1;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}

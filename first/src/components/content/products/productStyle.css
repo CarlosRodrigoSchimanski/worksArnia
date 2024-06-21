@@ -1,0 +1,36 @@
+.itensCard{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+.imgGames{
+    height: 180px;
+}
+
+.checkBoxDiv input{
+    display: none;
+}
+
+.checkBoxDiv input + label:before{
+    display: inline-block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 2px solid purple;
+    background-color: white;
+    border-radius: 3px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.checkBoxDiv input:checked + label:before{
+    background-color: purple;
+}
+
+.checkBoxDiv{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}

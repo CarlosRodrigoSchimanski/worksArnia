@@ -1,0 +1,22 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    border: 4px solid #6950A1;
+    padding-top: 5px;
+}
+
+img{
+    height: 45px;
+    display: block;
+}
+
+.visa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    font-size: 12px;
+    font-weight: 600;
+}
